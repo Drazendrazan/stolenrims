@@ -1,6 +1,6 @@
 # rimjob
 
-This is a mod for FiveM / GTA V that aims to create some more depth top the car boosting scene (PVP).
+This is a mod for FiveM / GTA V that aims to create some more depth to the car boosting scene (PVP).
 
 ## Features:
 * Stealing Players custom Rims
