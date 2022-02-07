@@ -1,12 +1,12 @@
 QBCore = exports['qb-core']:GetCoreObject()
 
 RegisterNetEvent('vehicle:shit:installstolenrims') -- Wrench Required
-AddEventHandler('vehicle:shit:installstolenrims', function(wheeltype, wheelindex)	
-	local vehProps = QBCore.Functions.GetVehicleProperties(vehicle)
+AddEventHandler('vehicle:shit:installstolenrims', function(wheeltype, wheelindex)
+	local vehicle = GetClosestVehicle(GetEntityCoords(PlayerPedId()), 3.0, 0, 127)	
 	local model = GetEntityModel(vehicle)
 	local modelName	= GetDisplayNameFromVehicleModel(model)
-	local modCount = GetNumVehicleMods(vehicle, modType)
-	local vehicle = GetClosestVehicle(GetEntityCoords(PlayerPedId()), 3.0, 0, 127)	
+	local modCount = GetNumVehicleMods(vehicle, modType)	
+	local vehProps = QBCore.Functions.GetVehicleProperties(vehicle)
 	QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result) --I'm assuming you have this function to check for items in your inventory, if not I'll add it to the server out of use
 		if result then
 			if vehicle ~= nil and vehicle ~= 0 then
