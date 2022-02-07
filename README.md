@@ -5,7 +5,7 @@ This is a mod for FiveM / GTA V that aims to create some more depth top the car 
 ## Features:
 * Stealing Players custom Rims
 * You can steal players wheels and put them on your vehicle, pretty straight forward
-* Metadata in the items stores the wheels removed so you can then use them on another vehicle
+* Metadata in the item is stored when the wheels  are removed so you can then use them on another vehicle
 
 
 ## Configuration
@@ -28,6 +28,7 @@ https://github.com/sgtherbz/stolenrims
                 $(".item-info-description").html('<p>'+ itemData.info.label + '</span></p><p><strong>Type: </strong><span>' + itemData.info.wheeltype + '</span></p><p><strong>Index: </strong><span>' + itemData.info.wheelindex +'</p>');
             
     (It will vary from inventory to inventory where exactly your functin is located but the basic use of metadata I believe remains the same troughout)
+* Added the png files in the img folder
 * Added these items to your shared.lua
 	["stolenrims"] 					 = {["name"] = "stolenrims", 					["label"] = "Rims", 					["weight"] = 20000, 	["type"] = "item", 		["image"] = "stolenrims.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Nice set of rims."},
 	["stolenrims2"] 				 = {["name"] = "stolenrims2", 					["label"] = "Scrapyard Rims", 			["weight"] = 20000, 	["type"] = "item", 		["image"] = "stolenrims2.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Not so nice set of scrapyard rims."},
@@ -45,3 +46,7 @@ If you run a FiveM server, you know what to do... but these are the basic instru
 * Refresh + ensure [foldername]
 
 Where [foldername] is the folder in Resources where the .lua files are located.
+
+
+## Disclaimer
+* As a full time developer for a unique server suport won't be offered its pretty straight forward how this works
