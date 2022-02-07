@@ -1,4 +1,4 @@
-# stolenrims
+# rimjob
 
 This is a mod for FiveM / GTA V that aims to create some more depth top the car boosting scene (PVP).
 
