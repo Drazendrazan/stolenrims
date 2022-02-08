@@ -47,6 +47,6 @@ Where [foldername] is the folder in Resources where the .lua files are located.
 
 ## Disclaimer
 * As a full time developer for a unique server support won't be offered its pretty straight forward how this works
-https://i.imgur.com/ZlTU4Bk.jpeg
+![image](https://i.imgur.com/ZlTU4Bk.jpeg)
 
 https://escaperp.com/forum/
