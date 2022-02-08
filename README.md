@@ -15,9 +15,6 @@ You can change the default wheels, the progress bar times and animations if you 
 ## Compatibility
 Since its been developed for a server running on a customised QBUS framework it's been adapted to run on the latest qb-core release
 
-## Download
-
-https://github.com/sgtherbz/stolenrims
 
 ## Installation
 * Go to your inventory app.js and locate the function "FormatItemInfo" and find a long list of elseif statements relating to formatting items meta
@@ -49,7 +46,7 @@ Where [foldername] is the folder in Resources where the .lua files are located.
 
 
 ## Disclaimer
-* As a full time developer for a unique server suport won't be offered its pretty straight forward how this works
+* As a full time developer for a unique server support won't be offered its pretty straight forward how this works
 https://i.imgur.com/ZlTU4Bk.jpeg
 
 https://escaperp.com/forum/
