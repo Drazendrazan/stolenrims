@@ -1,5 +1,6 @@
 # rimjob
 
+![image](https://i.imgur.com/ZlTU4Bk.jpeg)
 This is a mod for FiveM / GTA V that aims to create some more depth to the car boosting scene (PVP).
 
 ## Features:
@@ -47,6 +48,5 @@ Where [foldername] is the folder in Resources where the .lua files are located.
 
 ## Disclaimer
 * As a full time developer for a unique server support won't be offered its pretty straight forward how this works
-![image](https://i.imgur.com/ZlTU4Bk.jpeg)
 
 https://escaperp.com/forum/
